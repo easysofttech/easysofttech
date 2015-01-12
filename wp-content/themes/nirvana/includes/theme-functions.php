@@ -408,7 +408,7 @@ function nirvana_site_info() {
 	$nirvanas = nirvana_get_theme_options();
 	foreach ($nirvanas as $key => $value) { ${"$key"} = $value ; }	?>
 	<em style="display:table;margin:0 auto;float:none;text-align:center;padding:7px 0;font-size:13px;">
-	<?php _e('Powered by','nirvana')?> <a target="_blank" href="<?php echo 'http://www.cryoutcreations.eu';?>" title="<?php echo 'Nirvana Theme by '. 'Cryout Creations';?>"><?php echo 'Nirvana' ?></a> &amp;
+	<?php _e('Powered by','EasySoftTech')?> <a target="_blank" href="<?php echo 'http://www.cryoutcreations.eu';?>" title="<?php echo 'Nirvana Theme by '. 'Cryout Creations';?>"><?php echo 'Nirvana' ?></a> &amp;
 	<a target="_blank" href="<?php echo esc_url('http://wordpress.org/' ); ?>" title="<?php esc_attr_e('Semantic Personal Publishing Platform', 'nirvana'); ?>"> <?php printf(' %s.', 'WordPress' ); ?></a></em>
 	<?php } // nirvana_site_info()
 add_action('cryout_footer_hook','nirvana_site_info',15);
