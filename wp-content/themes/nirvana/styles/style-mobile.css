@@ -136,8 +136,8 @@
 	body.mobile .column-text-separator {display:none;}
 }
 @media (max-width: 1680px) {
-	.nivo-caption h2 {font-size:64px;}
-	.slide-text {font-size:22px;}
+	.nivo-caption h2 {font-size:40px;}
+	.slide-text {font-size:16px;}
 }
 @media (max-width: 1280px) {
 	.nivo-caption h2 {font-size:46px;line-height:1.2em;}
