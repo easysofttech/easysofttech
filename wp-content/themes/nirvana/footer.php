@@ -22,7 +22,8 @@
 
 		<div id="footer2">
 			<div id="footer2-inside">
-			<?php cryout_footer_hook(); ?>
+				<?php cryout_footer_hook(); ?>
+
 			</div> <!-- #footer2-inside -->
 		</div><!-- #footer2 -->
 
