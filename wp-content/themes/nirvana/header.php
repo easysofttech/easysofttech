@@ -28,7 +28,9 @@
 <?php cryout_body_hook(); ?>
 
 <div id="wrapper" class="hfeed">
-<div id="topbar" ><div id="topbar-inner"> <?php cryout_topbar_hook(); ?> </div><div style="padding-top:10px;margin-left:300px;" > <i class="icon-envelope-alt"></i>admin@easysofttech.com</div></div>
+<div id="topbar" ><div id="topbar-inner"> <?php cryout_topbar_hook(); ?> </div>
+<div style="padding-top:10px;margin-left:300px;" > 
+	<i class="icon-envelope-alt"></i>tk@easysofttech.com</div></div>
 <?php cryout_wrapper_hook(); ?>
 
 <div id="header-full">
